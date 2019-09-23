@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_childrenlistening"
+            android:icon="@drawable/users"
+            android:title="@string/children_listening" />
+        <item
+            android:id="@+id/nav_livereporting"
+            android:icon="@drawable/radio"
+            android:title="@string/live_reporting" />
+        <item
+            android:id="@+id/nav_accedent_reporting"
+            android:icon="@drawable/zap"
+            android:title="@string/accident_reporting" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/mail"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/log_out"
+            android:title="Logout" />
+
+
+
+    </group>
+
+
+</menu>
